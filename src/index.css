@@ -2,10 +2,21 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Open Sans", serif;
 }
 
 
-/**UTILITIES**/
+ul {
+    list-style: none;
+
+}
+
+a {
+    text-decoration: none;
+    color: #959595;
+}
+
+/***UTILITIES***/
 
 .container {
     max-width: 1200px;
@@ -25,14 +36,41 @@ header {
 
 header ul {
     display: flex;
-    list-style: none;
-
 }
-
 
 /***MAIN***/
 
 main {
     background-color: #1C1C1C;
     color: white;
+}
+
+
+/***FOOTER***/
+#merchandise {
+    background: #0282F9;
+}
+
+#footer-menu {
+    display: flex;
+    max-height: 370px;
+}
+
+
+#menu {
+    background-image: url(../src/assets/img/footer-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+
+
+}
+
+.footer-col-dc {
+    overflow: hidden;
+}
+
+.footer-col-dc img {
+    position: relative;
+    top: 20px;
 }
