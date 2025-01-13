@@ -9,15 +9,15 @@ const Header = () => {
             <nav>
                 <ul>
                     <li><a href="">characters</a></li>
-                    <li><a href=""></a>comics</li>
-                    <li><a href=""></a>Movies</li>
-                    <li><a href=""></a>tv</li>
-                    <li><a href=""></a>games</li>
-                    <li><a href=""></a>collectibles</li>
-                    <li><a href=""></a>videos</li>
-                    <li><a href=""></a>fans</li>
-                    <li><a href=""></a>news</li>
-                    <li><a href=""></a>shop</li>
+                    <li><a href="">comics</a></li>
+                    <li><a href="">Movies</a></li>
+                    <li><a href="">tv</a></li>
+                    <li><a href="">games</a></li>
+                    <li><a href="">collectibles</a></li>
+                    <li><a href="">videos</a></li>
+                    <li><a href="">fans</a></li>
+                    <li><a href="">news</a></li>
+                    <li><a href="">shop</a></li>
                 </ul>
             </nav>
 

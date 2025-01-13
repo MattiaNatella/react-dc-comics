@@ -67,6 +67,23 @@ const Footer = () => {
                     </div>
                 </div>
             </section>
+            <section id="cta">
+                <div className="container d-flex">
+                    <div className="footer-col">
+                        <h3>sign-up now!</h3>
+                    </div>
+                    <div className="footer-col">
+                        <ul className="d-flex">
+                            <li><a href="#"></a>FOLLOW US</li>
+                            <li><a href="#"></a><img src="/public/footer-facebook.png" alt="Facebook Icon" /></li>
+                            <li><a href="#"></a><img src="/public/footer-twitter.png" alt="Twitter Icon" /></li>
+                            <li><a href="#"></a><img src="/public/footer-youtube.png" alt="Youtube Icon" /></li>
+                            <li><a href="#"></a><img src="/public/footer-pinterest.png" alt="Pinterest Icon" /></li>
+                            <li><a href="#"></a><img src="/public/footer-periscope.png" alt="Periscope Icon" /></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
         </footer >
     )
 }
