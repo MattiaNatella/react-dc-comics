@@ -10,11 +10,15 @@ const Footer = () => {
     return (
         <footer>
             <section id="merchandise">
-                <div className="container">
+                <div className="container d-flex">
                     <img src={BuyDigital} alt="Digital" />
+                    <span>DIGITAL COMICS</span>
                     <img src={BuyMerchandise} alt="Merchandise" />
-                    <img src={BuyShopLocator} alt="Shop Locator" />
+                    <span>DC MERCHANDISE</span>
                     <img src={Subscriptions} alt="Subscriptions" />
+                    <span>SUBSCRIPTIONS</span>
+                    <img src={BuyShopLocator} alt="Shop Locator" />
+                    <span>COMIC SHOP LOCATOR</span>
                 </div>
             </section>
             <section id='menu'>

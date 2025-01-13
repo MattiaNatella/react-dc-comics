@@ -61,18 +61,30 @@ header img {
 main {
     background-color: #1C1C1C;
     color: white;
-    padding: 30px 0;
+    padding: 20px 0;
 }
 
 
 /***FOOTER***/
 #merchandise {
     background: #0282F9;
+    padding: 20px 0;
+}
+
+section#merchandise div.container {
+    justify-content: space-Around;
+    align-items: center;
+}
+
+section#merchandise div.container span {
+    color: white;
+    margin-left: -75px;
 }
 
 #footer-menu {
     display: flex;
     max-height: 370px;
+    padding: 0;
 }
 
 
@@ -81,9 +93,14 @@ main {
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
-
-
 }
+
+footer section#merchandise img {
+    width: 55px;
+    height: 60px;
+    object-fit: contain;
+}
+
 
 .footer-col-dc {
     overflow: hidden;
