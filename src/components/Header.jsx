@@ -1,4 +1,19 @@
 import LogoHeader from '../assets/img/dc-logo.png'
+import NavItem from './partials/NavItem';
+const links = [
+    { href: "#characters", text: "characters" },
+    { href: "#comics", text: "comics" },
+    { href: "#movies", text: "Movies" },
+    { href: "#tv", text: "tv" },
+    { href: "#games", text: "games" },
+    { href: "#collectibles", text: "collectibles" },
+    { href: "#videos", text: "videos" },
+    { href: "#fans", text: "fans" },
+    { href: "#news", text: "news" },
+    { href: "#shop", text: "shop" }
+];
+
+
 
 const Header = () => {
     return (
@@ -7,18 +22,7 @@ const Header = () => {
                 <img src={LogoHeader} alt="Logo DC" />
             </figure>
             <nav>
-                <ul>
-                    <li><a href="">characters</a></li>
-                    <li><a href="">comics</a></li>
-                    <li><a href="">Movies</a></li>
-                    <li><a href="">tv</a></li>
-                    <li><a href="">games</a></li>
-                    <li><a href="">collectibles</a></li>
-                    <li><a href="">videos</a></li>
-                    <li><a href="">fans</a></li>
-                    <li><a href="">news</a></li>
-                    <li><a href="">shop</a></li>
-                </ul>
+                <NavItem links={links} />
             </nav>
 
         </header>

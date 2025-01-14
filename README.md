@@ -1,8 +1,21 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Esercizio di oggi: DC Comics (React Components)**
 
-Currently, two official plugins are available:
+nome repo: react-dc-comics
+Descrizione:
+Create un nuovo progetto React e definite i componenti necessari per strutturare il layout come da screenshot allegato.
+Per oggi diamo priorità alla struttura: quando è tutto bello solido, passiamo al CSS!
+Bonus:
+- Creare un componente aggiuntivo per gestire la fascia azzurra con le icone.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**PARTE 2**
+
+Esercizio di oggi: Vue DC Comics
+nome repo: react-dc-comics
+
+Descrizione:
+Continuate a lavorare nella stessa repo di ieri, creando un array di link nell’header e sfruttandolo in maniera dinamica. Una volta fatto, provate a centralizzare i dati in App.jsx e a passarli come prop.
+Bonus
+Creare un array di dati anche per i link nel footer e cercare di dinamicizzare anche quelli all’interno dei componenti della vostra app.
+NB: In allegato sono presenti i dati relativi al menu dell’header. Per il footer (bonus) generate voi la struttura dati in modo coerente con array di oggetti
