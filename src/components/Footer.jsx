@@ -2,52 +2,8 @@ import BonusFooter from './BonusFooter'
 import DcLogoBg from '../assets/img/dc-logo-bg.png'
 import NavBar from './partials/NavBar';
 
-const dcComicsLinks = [
-    { text: 'Characters', href: '#' },
-    { text: 'Comics', href: '#' },
-    { text: 'Movies', href: '#' },
-    { text: 'TV', href: '#' },
-    { text: 'Games', href: '#' },
-    { text: 'Videos', href: '#' },
-    { text: 'News', href: '#' }
-];
-
-const shopLinks = [
-    { text: 'Shop DC', href: '#' },
-    { text: 'Shop DC Collectibles', href: '#' }
-];
-
-const dcLinks = [
-    { text: 'Terms of Use', href: '#' },
-    { text: 'Privacy Policy (New)', href: '#' },
-    { text: 'Ad Choices', href: '#' },
-    { text: 'Advertising', href: '#' },
-    { text: 'Jobs', href: '#' },
-    { text: 'Subscriptions', href: '#' },
-    { text: 'Talent Workshop', href: '#' },
-    { text: 'CPSC Certificates', href: '#' },
-    { text: 'Ratings', href: '#' },
-    { text: 'Shop Help', href: '#' },
-    { text: 'Contact Us', href: '#' }
-];
-
-const sitesLinks = [
-    { text: 'DC', href: '#' },
-    { text: 'MAD Magazine', href: '#' },
-    { text: 'DC Kids', href: '#' },
-    { text: 'DC Universe', href: '#' },
-    { text: 'DC Power Visa', href: '#' }
-];
-
-const socialLinks = [
-    { href: "#", imgSrc: "/footer-facebook.png", alt: "Facebook Icon" },
-    { href: "#", imgSrc: "/footer-twitter.png", alt: "Twitter Icon" },
-    { href: "#", imgSrc: "/footer-youtube.png", alt: "Youtube Icon" },
-    { href: "#", imgSrc: "/footer-pinterest.png", alt: "Pinterest Icon" },
-    { href: "#", imgSrc: "/footer-periscope.png", alt: "Periscope Icon" }
-];
-
-const Footer = () => {
+const Footer = (props) => {
+    const { dcComicsLinks, shopLinks, dcLinks, sitesLinks, socialLinks } = props
     return (
         <footer>
             <BonusFooter />
