@@ -12,29 +12,17 @@ const Footer = (props) => {
                     <div className='left-footer d-flex'>
                         <div className='footer-col'>
                             <h3>DC COMICS</h3>
-                            <nav>
-                                <NavBar links={dcComicsLinks} />
-                            </nav>
-
+                            <NavBar links={dcComicsLinks} />
                             <h3>SHOP</h3>
-                            <nav>
-                                <NavBar links={shopLinks} />
-                            </nav>
-
+                            <NavBar links={shopLinks} />
                         </div>
                         <div className='footer-col'>
                             <h3>DC</h3>
-                            <nav>
-                                <NavBar links={dcLinks} />
-                            </nav>
-
+                            <NavBar links={dcLinks} />
                         </div>
                         <div className='footer-col'>
                             <h3>SITES</h3>
-                            <nav>
-                                <NavBar links={sitesLinks} />
-                            </nav>
-
+                            <NavBar links={sitesLinks} />
                         </div>
                     </div>
                     <div className="footer-col-dc">
@@ -49,10 +37,7 @@ const Footer = (props) => {
                     </div>
                     <div className="footer-col d-flex">
                         <h3 id='follow'>FOLLOW US</h3>
-                        <nav>
-                            <NavBar links={socialLinks} type='d-flex' />
-                        </nav>
-
+                        <NavBar links={socialLinks} type='d-flex' />
                     </div>
                 </div>
             </section>
