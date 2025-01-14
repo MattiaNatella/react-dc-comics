@@ -47,7 +47,8 @@ const Footer = (props) => {
                     <div className="footer-col sign-up">
                         <h3>SIGN-UP NOW!</h3>
                     </div>
-                    <div className="footer-col">
+                    <div className="footer-col d-flex">
+                        <h3 id='follow'>FOLLOW US</h3>
                         <nav>
                             <NavBar links={socialLinks} type='d-flex' />
                         </nav>
