@@ -1,5 +1,5 @@
 import LogoHeader from '../assets/img/dc-logo.png'
-import NavItem from './partials/NavItem';
+import NavBar from './partials/NavBar';
 const links = [
     { href: "#characters", text: "characters" },
     { href: "#comics", text: "comics" },
@@ -22,7 +22,7 @@ const Header = () => {
                 <img src={LogoHeader} alt="Logo DC" />
             </figure>
             <nav>
-                <NavItem links={links} />
+                <NavBar links={links} />
             </nav>
 
         </header>

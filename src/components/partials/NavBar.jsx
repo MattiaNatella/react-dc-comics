@@ -1,6 +1,6 @@
 
 
-const NavItem = (props) => {
+const NavBar = (props) => {
     const { links, type } = props
     return (
         <ul className={type || ''}>
@@ -10,4 +10,4 @@ const NavItem = (props) => {
     )
 }
 
-export default NavItem
+export default NavBar

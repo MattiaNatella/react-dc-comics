@@ -1,6 +1,6 @@
 import BonusFooter from './BonusFooter'
 import DcLogoBg from '../assets/img/dc-logo-bg.png'
-import NavItem from './partials/NavItem';
+import NavBar from './partials/NavBar';
 
 const dcComicsLinks = [
     { text: 'Characters', href: '#' },
@@ -57,26 +57,26 @@ const Footer = () => {
                         <div className='footer-col'>
                             <h3>DC COMICS</h3>
                             <nav>
-                                <NavItem links={dcComicsLinks} />
+                                <NavBar links={dcComicsLinks} />
                             </nav>
 
                             <h3>SHOP</h3>
                             <nav>
-                                <NavItem links={shopLinks} />
+                                <NavBar links={shopLinks} />
                             </nav>
 
                         </div>
                         <div className='footer-col'>
                             <h3>DC</h3>
                             <nav>
-                                <NavItem links={dcLinks} />
+                                <NavBar links={dcLinks} />
                             </nav>
 
                         </div>
                         <div className='footer-col'>
                             <h3>SITES</h3>
                             <nav>
-                                <NavItem links={sitesLinks} />
+                                <NavBar links={sitesLinks} />
                             </nav>
 
                         </div>
@@ -93,7 +93,7 @@ const Footer = () => {
                     </div>
                     <div className="footer-col">
                         <nav>
-                            <NavItem links={socialLinks} type='d-flex' />
+                            <NavBar links={socialLinks} type='d-flex' />
                         </nav>
 
                     </div>
