@@ -5,7 +5,6 @@
     font-family: "Open Sans", serif;
 }
 
-
 ul {
     list-style: none;
 
@@ -16,7 +15,6 @@ a {
 }
 
 /***UTILITIES***/
-
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -41,7 +39,6 @@ a {
 
 
 /***HEADER***/
-
 header {
     display: flex;
     justify-content: space-between;
@@ -49,60 +46,55 @@ header {
     height: 120px;
     padding: 0px;
 
-}
+    img {
+        width: 90px;
+    }
 
-header nav {
-    height: 100%;
-    display: flex;
-    align-items: center;
+    nav {
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
 
+    ul {
+        display: flex;
+        height: 100%;
+        align-items: center;
 
-}
+        li:hover a {
+            color: #0282F9;
+        }
 
-header ul {
-    display: flex;
-    height: 100%;
-    align-items: center;
-}
+        li:hover a::after {
+            content: '';
+            width: 100%;
+            position: absolute;
+            bottom: 0;
+            background-color: #0282F9;
+            height: 4px;
+        }
 
-header ul li {
-    position: relative;
-    margin-right: 25px;
-    height: 100%;
-}
+        li {
+            position: relative;
+            margin-right: 25px;
+            height: 100%;
 
-header ul li a {
-    color: #7B6658;
-    font-weight: bold;
-    text-transform: uppercase;
-    font-size: 0.7rem;
-    height: 100%;
-    display: flex;
-    align-items: center;
+            a {
+                color: #7B6658;
+                font-weight: bold;
+                text-transform: uppercase;
+                font-size: 0.7rem;
+                height: 100%;
+                display: flex;
+                align-items: center;
 
-}
+            }
+        }
+    }
 
-header ul li:hover a::after {
-    content: '';
-    width: 100%;
-    position: absolute;
-    bottom: 0;
-    background-color: #0282F9;
-    height: 4px;
-
-
-}
-
-header ul li:hover a {
-    color: #0282F9;
-}
-
-header img {
-    width: 90px;
 }
 
 /***MAIN***/
-
 main {
     background-color: #1C1C1C;
     color: white;
@@ -111,8 +103,6 @@ main {
 
 
 /***FOOTER***/
-
-
 footer h3 {
     color: white;
     font-size: 0.9rem;
@@ -122,11 +112,11 @@ footer h3 {
 
 footer li {
     padding: 0px;
-}
 
-footer li a {
-    color: #959595;
-    font-size: 0.6rem;
+    a {
+        color: #959595;
+        font-size: 0.6rem;
+    }
 }
 
 #merchandise {
@@ -138,12 +128,12 @@ section#merchandise div.container {
     justify-content: space-Around;
     align-items: center;
     padding: 30px 0;
-}
 
-section#merchandise div.container span {
-    color: white;
-    margin-left: -60px;
-    font-size: 0.8rem;
+    span {
+        color: white;
+        margin-left: -60px;
+        font-size: 0.8rem;
+    }
 }
 
 #footer-menu {
@@ -175,39 +165,42 @@ footer section#merchandise img {
 
 .footer-col-dc {
     overflow: hidden;
+
+    img {
+        position: relative;
+        top: -94px;
+    }
 }
 
-.footer-col-dc img {
-    position: relative;
-    top: -94px;
-}
 
 #cta {
     background-color: #303030;
-}
 
-#cta .container {
-    justify-content: space-between;
-    align-items: center;
-}
+    .container {
+        justify-content: space-between;
+        align-items: center;
+    }
 
-#cta div.footer-col ul {
-    justify-content: center;
-    align-items: center;
-}
+    div.footer-col ul {
+        justify-content: center;
+        align-items: center;
+    }
 
-#cta div.footer-col li {
-    padding: 10px 10px;
-    vertical-align: middle;
-}
+    div.footer-col li {
+        position: relative;
+        bottom: -2px;
+        padding: 10px 10px;
 
-#cta div.footer-col li:not(:first-child) {
-    position: relative;
-    bottom: -2px;
-}
 
-#cta div.footer-col li a h3 {
-    color: #0282F9;
+        a h3 {
+            color: #0282F9;
+        }
+    }
+
+    div.footer-col li:not(:first-child) {
+        position: relative;
+        bottom: -2px;
+    }
 }
 
 .sign-up h3 {
